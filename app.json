@@ -1,0 +1,23 @@
+{
+  "name": "super-super-heroku-bots",
+  "description": "asdd",
+  "scripts": {
+  },
+  "env": {
+    "BOT_TOKEN": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "stack": "heroku-18",
+  "buildpacks": [
+
+  ]
+}
