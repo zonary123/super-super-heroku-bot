@@ -16,7 +16,7 @@ client.on("ready", () => {
    client.user.setPresence( {
        status: "online",
        game: {
-           name: `/help | Estoy en mc.darkpixel.com y en ${client.guilds.size} servidores.`,
+           name: `-help | Estoy en mc.darkpixel.com y en ${client.guilds.size} servidores.`,
            type: "PLAYING"
        }
     });
@@ -66,21 +66,6 @@ client.on("message", (message) => {
         }
       }
   });
-  }
-  if(message.content.startsWith(prefix + 'help')){
-
-    message.channel.send('**COMANDOS DE Darkpixel**\n```\n'+
-                        '-> '+prefix+'ping           :: Comprueba la latencia del bot y de tus mensajes.\n'+
-                        '-> '+prefix+'avatar <@user> :: Muestra el avatar de un usuario.\n'+
-                        '-> '+prefix+'decir          :: Hace que el bot diga un mensaje.\n'+
-                        '-> '+prefix+'user <@user>   :: Muestra información sobre un usuario mencioando.\n'+
-                        '-> '+prefix+'server         :: Muestra información de un servidor determinado.\n'+
-                        '-> '+prefix+'8ball          :: El bot respondera a tus preguntas.\n'+
-                        '-> '+prefix+'hola           :: Retorna un saludo como mensaje.\n'+
-                        '-> '+prefix+'hola           :: Retorna un saludo como mensaje.\n'+
-                        '-> '+prefix+'pong           :: Comprueba la latencia del bot y de tus mensajes.\n```\n\n'+
-                        '**Darkpixel - Server de darkpixel: https://discord.gg/Jnf4TwN');
-
   }
   if (message.content.startsWith(prefix +"richembed" )){
       const embed = new Discord.RichEmbed()
@@ -309,4 +294,4 @@ if (command === 'join') {
     }
 }
 });
-client.login(process.env.BOT_TOKEN);
+client.login("NTI4NjM2ODIzNDE3NjUxMjA1.DwujJw.DTubJXXt0guSlyciN-RHsQG7OQI");
