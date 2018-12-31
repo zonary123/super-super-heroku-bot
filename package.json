@@ -1,12 +1,18 @@
 {
-  "name": "Test",
-  "version": "0.0.0",
-  "main": "bot.js",
-  "scripts": {
-    "start": "Node bot.js"
+  "name": "super-super-heroku-bots",
+  "description": "sdadssd",
+  "scripts": {},
+  "env": {
+    "BOT_TOKEN": {
+      "required": true
+    }
   },
-  "dependencies": {
-    "discord.js": "11.1.0",
-    "request": "2.81.0"
-  }
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "stack": "heroku-18",
+  "buildpacks": []
 }
