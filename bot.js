@@ -309,4 +309,4 @@ if (command === 'join') {
     }
 }
 });
-client.login("NTI4NjM2ODIzNDE3NjUxMjA1.DwrcPQ.lI3OVf2du03Y3ioQRAE7fN9DMq4");
+client.login(process.env.BOT_TOKEN);
